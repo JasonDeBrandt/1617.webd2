@@ -3,3 +3,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.button {
+  display: inline-block;
+  padding: 5px 15px;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  border-bottom: solid 3px hsl(240, 50%, 30%) ;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: white;
+  background-color: hsl(240, 50%, 40%);
+}
